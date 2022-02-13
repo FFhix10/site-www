@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-gem 'bootstrap'
+gem 'bootstrap', '>= 4.5.2'
 gem 'font-awesome-sass'
 gem 'html-proofer'
 # Jekyll-assets isn't yet compatible with Jekyll 4. Pin jekyll version.
