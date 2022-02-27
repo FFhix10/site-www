@@ -5,10 +5,10 @@ gem 'html-proofer'
 # Jekyll-assets isn't yet compatible with Jekyll 4. Pin jekyll version.
 # https://github.com/envygeeks/jekyll-assets/issues/613
 gem 'jekyll', '~> 3'
-gem 'jekyll-assets', '~> 3', group: :jekyll_plugins
+gem 'jekyll-assets', '~> 3', '>= 3.0.12', group: :jekyll_plugins
 gem 'jekyll-toc'
 gem 'liquid-tag-parser'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.2'
 gem 'sassc'
 # Sprockets > 4.0.beta8 breaks jekyll-assets
 # https://github.com/envygeeks/jekyll-assets/issues/589
